@@ -1,0 +1,92 @@
+{"properties": [
+  {
+    "name": "Properties",
+    "type": "java.lang.String",
+    "description": "A description for 'Properties'"
+  },
+  {
+    "name": "prop.setProperty(\"1\",",
+    "type": "java.lang.String",
+    "description": "A description for 'prop.setProperty(\"1\",'"
+  },
+  {
+    "name": "prop.setProperty(\"2\",",
+    "type": "java.lang.String",
+    "description": "A description for 'prop.setProperty(\"2\",'"
+  },
+  {
+    "name": "prop.setProperty(\"3\",",
+    "type": "java.lang.String",
+    "description": "A description for 'prop.setProperty(\"3\",'"
+  },
+  {
+    "name": "prop.setProperty(\"1\",",
+    "type": "java.lang.String",
+    "description": "A description for 'prop.setProperty(\"1\",'"
+  },
+  {
+    "name": "prop.setProperty(\"1\",",
+    "type": "java.lang.String",
+    "description": "A description for 'prop.setProperty(\"1\",'"
+  },
+  {
+    "name": "prop.setProperty(\"1\",",
+    "type": "java.lang.String",
+    "description": "A description for 'prop.setProperty(\"1\",'"
+  },
+  {
+    "name": "prop.setProperty(\"2\",",
+    "type": "java.lang.String",
+    "description": "A description for 'prop.setProperty(\"2\",'"
+  },
+  {
+    "name": "prop.setProperty(\"1\",",
+    "type": "java.lang.String",
+    "description": "A description for 'prop.setProperty(\"1\",'"
+  },
+  {
+    "name": "prop.setProperty(\"1\",",
+    "type": "java.lang.String",
+    "description": "A description for 'prop.setProperty(\"1\",'"
+  },
+  {
+    "name": "prop.setProperty(\"1\",",
+    "type": "java.lang.String",
+    "description": "A description for 'prop.setProperty(\"1\",'"
+  },
+  {
+    "name": "prop.setProperty(\"1\",",
+    "type": "java.lang.String",
+    "description": "A description for 'prop.setProperty(\"1\",'"
+  },
+  {
+    "name": "prop.setProperty(\"1\",",
+    "type": "java.lang.String",
+    "description": "A description for 'prop.setProperty(\"1\",'"
+  },
+  {
+    "name": "severity",
+    "type": "java.lang.String",
+    "description": "A description for 'severity'"
+  },
+  {
+    "name": "severity",
+    "type": "java.lang.String",
+    "description": "A description for 'severity'"
+  },
+  {
+    "name": "property.map",
+    "type": "java.lang.String",
+    "description": "A description for 'property.map'"
+  },
+  {
+    "name": "inputFile.path",
+    "type": "java.lang.String",
+    "description": "A description for 'inputFile.path'"
+  },
+  {
+    "name": "severity",
+    "type": "java.lang.String",
+    "description": "A description for 'severity'"
+  }
+]}

@@ -17,6 +17,7 @@ import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
@@ -29,12 +30,15 @@ public class JobRunSchedule {
 	private SpringService service;
 	private List<String[]> dataLines = new ArrayList<>();
 
+	@Value("${output.fileName}")
+	private String OUTPUT_FILENAME;
+	
 	@Autowired
 	public JobRunSchedule(SpringService service) {
 		this.service = service;
 	}
 
-	@Scheduled(cron = "0 0 4 1/1 * ? ")
+	@Scheduled(cron = "${scheduling.job.cron}")
 	public void runSchedule() throws IOException, ParseException {
 		LOGGER.info("!!!  Cron Job Started   !!!");
 		dataLines.clear();
@@ -53,7 +57,7 @@ public class JobRunSchedule {
 
 	public void createOutputCsv() throws IOException {
 		LOGGER.info("!!   Creating CSV file  !!");
-		File csvOutputFile = new File("output.csv");
+		File csvOutputFile = new File(OUTPUT_FILENAME);
 		try (PrintWriter pw = new PrintWriter(csvOutputFile)) {
 			dataLines.stream().map(this::convertToCSV).forEach(pw::println);
 		}
